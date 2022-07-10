@@ -22,7 +22,7 @@ end
 	bₓ::Real = 0.5
 	λ::Real = 0.1
 	γ::Real = 0.1
-    noise::Sampleable = Normal(0, 0.1)
+	noise::Sampleable = Normal(0, 0.1)
 	f::Function = wichmann_hill
 end
 
@@ -33,7 +33,7 @@ function simulate(params::ModelParams,
 	x = repeat(stimulus_levels, inner = nreps)
 
 	@unpack b₀, bₓ, λ, γ, f = params
-	
+
 	@assert 0 < λ < 1
 	@assert 0 < γ < 1
 
