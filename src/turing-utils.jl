@@ -1,5 +1,3 @@
-
-
 @kwdef struct FittedModel
     fit::Chains
     model::DynamicPPL.Model
