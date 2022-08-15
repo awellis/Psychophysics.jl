@@ -5,6 +5,7 @@ using Parameters
 using Random, Distributions
 using StatsFuns
 using DataFrames
+using Turing
 
 export MixtureModelParams, bernoulli_mixture, simulate 
 export StaircaseMethod, PestMethod, QuestMethod
