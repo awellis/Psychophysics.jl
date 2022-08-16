@@ -12,7 +12,7 @@ export MixtureModelParams, bernoulli_mixture, simulate
 export StaircaseMethod, PestMethod, QuestMethod
 export PsiMethod, MDPMethod
 # utils
-export FittedModel, fit_model
+export FittedModel, fit_model, plot_fit
 # turing models
 export mixture_model, psychophysics_model, logistic_regression, mixture_model_2, mixture_model_discrete
 
