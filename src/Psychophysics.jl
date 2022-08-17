@@ -7,10 +7,13 @@ using StatsFuns
 using DataFrames
 using Turing
 using Gadfly
+using TypedTables
 
 export MixtureModelParams, bernoulli_mixture, simulate 
 export StaircaseMethod, PestMethod, QuestMethod
 export PsiMethod, MDPMethod
+# generate data
+export PsychophysicsModelParams, simulate
 # utils
 export FittedModel, fit_model, plot_fit
 # turing models
