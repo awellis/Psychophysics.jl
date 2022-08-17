@@ -22,6 +22,7 @@ export mixture_model, psychophysics_model, logistic_regression, mixture_model_2,
 include("generate-data.jl")
 include("turing-utils.jl")
 include("turing-models.jl")
+include("simulation-utils.jl")
 include("adaptive-methods.jl")
 
 end
